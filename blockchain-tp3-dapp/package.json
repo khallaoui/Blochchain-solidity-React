@@ -1,0 +1,49 @@
+{
+  "name": "blockchain-tp3-dapp",
+  "version": "1.0.0",
+  "description": "Application décentralisée pour les exercices Solidity du TP3 Blockchain",
+  "main": "truffle-config.js",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "migrate:reset": "truffle migrate --reset --network development",
+    "test": "truffle test",
+    "console": "truffle console --network development",
+    "client": "cd client && npm start",
+    "client:build": "cd client && npm run build",
+    "client:install": "cd client && npm install",
+    "dev": "concurrently \"ganache-cli -p 7545\" \"npm run migrate\" \"npm run client\"",
+    "start": "npm run deploy"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "truffle",
+    "react",
+    "web3",
+    "dapp",
+    "ethereum"
+  ],
+  "author": "Master GLCC S2 - 2024/2025",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/votre-username/blockchain-tp3-dapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/votre-username/blockchain-tp3-dapp/issues"
+  },
+  "homepage": "https://github.com/votre-username/blockchain-tp3-dapp#readme"
+}
