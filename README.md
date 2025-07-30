@@ -304,7 +304,7 @@ truffle console --network development
 - [ ] Historique des transactions persistant
 
 
-## ���‍💻 Auteur
+## 💻 Auteur
 
 **KHALLAOUI**
 - Master GLCC - 2024/2026
