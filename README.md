@@ -303,17 +303,6 @@ truffle console --network development
 - [ ] Push notifications
 - [ ] Persistent transaction history
 
-## 👥 Contributing
-
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is under MIT license. See the `LICENSE` file for more details.
 
 ## 👨‍💻 Author
 
@@ -328,19 +317,3 @@ This project is under MIT license. See the `LICENSE` file for more details.
 - Solidity documentation
 - Open source contributors
 
----
-
-## 📞 Support
-
-For any questions or issues:
-1. Check the documentation
-2. Review existing GitHub issues
-3. Create a new issue with:
-   - Problem description
-   - Steps to reproduce
-   - Environment (OS, versions)
-   - Error logs
-
----
-
-*Last updated: January 2025*
