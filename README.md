@@ -1,121 +1,121 @@
-# Blockchain TP3 - dApp Exercices Solidity
+# Blockchain TP3 - Solidity Exercises dApp
 
 ## 📋 Description
 
-Application décentralisée (dApp) développée pour le TP3 du cours de Blockchain. Cette application permet d'interagir avec 8 contrats Solidity différents, chacun illustrant des concepts spécifiques de la programmation blockchain.
+Decentralized application (dApp) developed for Blockchain course TP3. This application allows interaction with 8 different Solidity contracts, each illustrating specific concepts of blockchain programming.
 
-## 🛠️ Technologies Utilisées
+## 🛠️ Technologies Used
 
 - **Blockchain**: Solidity ^0.8.0
 - **Framework**: Truffle
-- **Réseau local**: Ganache
+- **Local Network**: Ganache
 - **Frontend**: React 19.1.1
 - **Web3**: Web3.js 4.16.0
 - **UI**: Bootstrap 5.3.7 + React Bootstrap 2.10.10
-- **Routage**: React Router DOM 6.30.1
+- **Routing**: React Router DOM 6.30.1
 
-## 📁 Structure du Projet
+## 📁 Project Structure
 
 ```
 blockchain-tp3-dapp/
-├── contracts/              # Contrats Solidity
-│   ├── Exercice1.sol       # Fonctions d'addition
-│   ├── Exercice2.sol       # Conversion Ether/Wei
-│   ├── Exercice3.sol       # Gestion des chaînes
-│   ├── Exercice4.sol       # Nombre positif
-│   ├── Exercice5.sol       # Vérification parité
-│   ├── Exercice6.sol       # Gestion tableaux
-│   ├── Exercice7.sol       # Héritage POO
-│   └── Exercice8.sol       # Système de paiement
-├── migrations/             # Scripts de déploiement
-├── test/                   # Tests unitaires
-├── client/                 # Application React
+├── contracts/              # Solidity Contracts
+│   ├── Exercice1.sol       # Addition functions
+│   ├── Exercice2.sol       # Ether/Wei conversion
+│   ├── Exercice3.sol       # String management
+│   ├── Exercice4.sol       # Positive number check
+│   ├── Exercice5.sol       # Parity verification
+│   ├── Exercice6.sol       # Array management
+│   ├── Exercice7.sol       # OOP inheritance
+│   └── Exercice8.sol       # Payment system
+├── migrations/             # Deployment scripts
+├── test/                   # Unit tests
+├── client/                 # React Application
 │   ├── src/
-│   │   ├── components/     # Composants React
-│   │   │   ├── exercises/  # Composants par exercice
+│   │   ├── components/     # React Components
+│   │   │   ├── exercises/  # Exercise components
 │   │   │   ├── Header.js   # Navigation
-│   │   │   ├── Home.js     # Page d'accueil
+│   │   │   ├── Home.js     # Home page
 │   │   │   ├── BlockchainInfo.js
 │   │   │   └── TransactionInfo.js
-│   │   ├── contracts/      # ABI des contrats
-│   │   └── utils/          # Utilitaires Web3
+│   │   ├── contracts/      # Contract ABIs
+│   │   └── utils/          # Web3 utilities
 │   └── public/
 ├── docs/                   # Documentation
-├── truffle-config.js       # Configuration Truffle
+├── truffle-config.js       # Truffle configuration
 └── package.json
 ```
 
-## 🎯 Exercices Implémentés
+## 🎯 Implemented Exercises
 
-### Exercice 1 - Fonctions d'Addition
-- **Contrat**: `Exercice1.sol`
-- **Fonctionnalités**: 
-  - Fonction `view` utilisant les variables d'état
-  - Fonction `pure` avec paramètres
-  - Modification des variables d'état
+### Exercise 1 - Addition Functions
+- **Contract**: `Exercice1.sol`
+- **Features**: 
+  - `view` function using state variables
+  - `pure` function with parameters
+  - State variable modification
 
-### Exercice 2 - Conversion Cryptomonnaies
-- **Contrat**: `Exercice2.sol`
-- **Fonctionnalités**:
-  - Conversion Ether → Wei
-  - Conversion Wei → Ether
-  - Comparaison avec utilitaires Web3.js
+### Exercise 2 - Cryptocurrency Conversion
+- **Contract**: `Exercice2.sol`
+- **Features**:
+  - Ether → Wei conversion
+  - Wei → Ether conversion
+  - Comparison with Web3.js utilities
 
-### Exercice 3 - Gestion des Chaînes
-- **Contrat**: `GestionChaines.sol`
-- **Fonctionnalités**:
-  - Stockage et modification de messages
-  - Concaténation de chaînes
-  - Calcul de longueur
-  - Comparaison de chaînes
+### Exercise 3 - String Management
+- **Contract**: `GestionChaines.sol`
+- **Features**:
+  - Message storage and modification
+  - String concatenation
+  - Length calculation
+  - String comparison
 
-### Exercice 4 - Nombre Positif
-- **Contrat**: `Exercice4.sol`
-- **Fonctionnalités**:
-  - Vérification si un nombre est positif
-  - Tests automatiques
-  - Interface de test interactive
+### Exercise 4 - Positive Number Check
+- **Contract**: `Exercice4.sol`
+- **Features**:
+  - Verify if a number is positive
+  - Automated tests
+  - Interactive test interface
 
-### Exercice 5 - Vérification de Parité
-- **Contrat**: `Exercice5.sol`
-- **Fonctionnalités**:
-  - Vérification pair/impair
-  - Visualisation des nombres
-  - Tests automatiques
+### Exercise 5 - Parity Verification
+- **Contract**: `Exercice5.sol`
+- **Features**:
+  - Even/odd verification
+  - Number visualization
+  - Automated tests
 
-### Exercice 6 - Gestion des Tableaux
-- **Contrat**: `Exercice6.sol`
-- **Fonctionnalités**:
-  - Ajout d'éléments
-  - Recherche par index
-  - Calcul de somme
-  - Affichage du tableau
+### Exercise 6 - Array Management
+- **Contract**: `Exercice6.sol`
+- **Features**:
+  - Element addition
+  - Index-based search
+  - Sum calculation
+  - Array display
 
-### Exercice 7 - Héritage POO
-- **Contrat**: `Rectangle.sol` (hérite de `Forme.sol`)
-- **Fonctionnalités**:
-  - Héritage et abstraction
-  - Polymorphisme
-  - Visualisation graphique
-  - Déplacement de forme
+### Exercise 7 - OOP Inheritance
+- **Contract**: `Rectangle.sol` (inherits from `Forme.sol`)
+- **Features**:
+  - Inheritance and abstraction
+  - Polymorphism
+  - Graphical visualization
+  - Shape movement
 
-### Exercice 8 - Système de Paiement
-- **Contrat**: `Payment.sol`
-- **Fonctionnalités**:
-  - Réception de paiements
-  - Retrait de fonds
-  - Gestion des permissions
-  - Suivi des soldes
+### Exercise 8 - Payment System
+- **Contract**: `Payment.sol`
+- **Features**:
+  - Payment reception
+  - Fund withdrawal
+  - Permission management
+  - Balance tracking
 
-## 🚀 Installation et Déploiement
+## 🚀 Installation and Deployment
 
-### Prérequis
+### Prerequisites
 
 ```bash
 # Node.js version 16+
 node --version
 
-# NPM ou Yarn
+# NPM or Yarn
 npm --version
 
 # Git
@@ -125,194 +125,222 @@ git --version
 ### Installation
 
 ```bash
-# Cloner le projet
-git clone <repository-url>
+# Clone the project
+git clone https://github.com/khallaoui/blockchain-tp3-dapp.git
 cd blockchain-tp3-dapp
 
-# Installer les dépendances Truffle
+# Install Truffle dependencies
 npm install
 
-# Installer les dépendances React
+# Install React dependencies
 cd client
 npm install
 cd ..
 ```
 
-### Installation des outils globaux
+### Global Tools Installation
 
 ```bash
 # Truffle
 npm install -g truffle
 
-# Ganache CLI (optionnel)
+# Ganache CLI (optional)
 npm install -g ganache-cli
 ```
 
-### Déploiement Local
+### Local Deployment
 
-#### 1. Démarrer Ganache
+#### 1. Start Ganache
 
 **Option A: Ganache GUI**
-- Télécharger et installer Ganache
-- Créer un nouveau workspace
-- Configurer le port 7545
+- Download and install Ganache
+- Create a new workspace
+- Configure port 7545
 
 **Option B: Ganache CLI**
 ```bash
 ganache-cli -p 7545 -h 0.0.0.0
 ```
 
-#### 2. Compiler et Déployer les Contrats
+#### 2. Compile and Deploy Contracts
 
 ```bash
-# Compiler les contrats
+# Compile contracts
 truffle compile
 
-# Déployer sur le réseau de développement
+# Deploy to development network
 truffle migrate --network development
 
-# Redéployer si nécessaire
+# Redeploy if necessary
 truffle migrate --reset --network development
 ```
 
-#### 3. Démarrer l'Application React
+#### 3. Start React Application
 
 ```bash
 cd client
 npm start
 ```
 
-L'application sera accessible sur `http://localhost:3000`
+The application will be accessible at `http://localhost:3000`
 
-## 🧪 Tests
+## 🧪 Testing
 
-### Tests Unitaires Truffle
+### Truffle Unit Tests
 
 ```bash
-# Exécuter tous les tests
+# Run all tests
 truffle test
 
-# Test spécifique
+# Specific test
 truffle test test/TestExercice1.js
 ```
 
-### Tests Frontend
+### Frontend Tests
 
 ```bash
 cd client
 npm test
 ```
 
-## 📱 Utilisation de l'Application
+## 📱 Application Usage
 
-### Configuration MetaMask
+### MetaMask Configuration
 
-1. Installer l'extension MetaMask
-2. Ajouter un réseau personnalisé :
-   - **Nom du réseau**: Ganache Local
-   - **URL RPC**: http://localhost:7545
-   - **ID de chaîne**: 1337 (ou selon votre configuration)
-   - **Symbole**: ETH
+1. Install MetaMask extension
+2. Add a custom network:
+   - **Network Name**: Ganache Local
+   - **RPC URL**: http://localhost:7545
+   - **Chain ID**: 1337 (or according to your configuration)
+   - **Symbol**: ETH
 
-3. Importer un compte depuis Ganache avec la clé privée
+3. Import an account from Ganache using the private key
 
 ### Navigation
 
-- **Page d'accueil**: Vue d'ensemble des 8 exercices
-- **Exercices individuels**: Interface dédiée pour chaque contrat
-- **Informations blockchain**: Affichage en temps réel des données
-- **Historique des transactions**: Suivi des interactions
+- **Home page**: Overview of the 8 exercises
+- **Individual exercises**: Dedicated interface for each contract
+- **Blockchain information**: Real-time data display
+- **Transaction history**: Interaction tracking
 
 ## 🔧 Configuration
 
 ### Truffle Configuration
 
-Le fichier `truffle-config.js` contient :
-- Configuration du réseau de développement (Ganache)
-- Version du compilateur Solidity (0.8.19)
-- Optimisations du compilateur
+The `truffle-config.js` file contains:
+- Development network configuration (Ganache)
+- Solidity compiler version (0.8.19)
+- Compiler optimizations
 
-### Variables d'Environnement
+### Environment Variables
 
-Créer un fichier `.env` dans le dossier `client/` :
+Create a `.env` file in the `client/` folder:
 
 ```env
 REACT_APP_NETWORK_ID=5777
 REACT_APP_GANACHE_URL=http://localhost:7545
 ```
 
-## 📊 Fonctionnalités Avancées
+## 📊 Advanced Features
 
-### Informations Blockchain en Temps Réel
-- Numéro de bloc actuel
+### Real-time Blockchain Information
+- Current block number
 - Gas limit
 - Timestamp
-- Solde du compte connecté
+- Connected account balance
 
-### Gestion des Transactions
-- Affichage du hash de transaction
-- Statut de la transaction
-- Gas utilisé
-- Numéro de bloc
+### Transaction Management
+- Transaction hash display
+- Transaction status
+- Gas used
+- Block number
 
-### Interface Responsive
-- Compatible mobile et desktop
-- Design Bootstrap moderne
-- Navigation intuitive
+### Responsive Interface
+- Mobile and desktop compatible
+- Modern Bootstrap design
+- Intuitive navigation
 
-## 🐛 Dépannage
+## 🐛 Troubleshooting
 
-### Problèmes Courants
+### Common Issues
 
-**1. Erreur "Contract not deployed"**
+**1. "Contract not deployed" error**
 ```bash
 truffle migrate --reset --network development
 ```
 
-**2. MetaMask ne se connecte pas**
-- Vérifier que Ganache est démarré
-- Vérifier la configuration du réseau dans MetaMask
-- Réinitialiser le compte MetaMask si nécessaire
+**2. MetaMask won't connect**
+- Verify that Ganache is running
+- Check network configuration in MetaMask
+- Reset MetaMask account if necessary
 
-**3. Erreur de compilation Solidity**
-- Vérifier la version du compilateur dans `truffle-config.js`
-- S'assurer que tous les contrats ont la bonne licence SPDX
+**3. Solidity compilation error**
+- Check compiler version in `truffle-config.js`
+- Ensure all contracts have proper SPDX license
 
-**4. Problèmes de Gas**
-- Augmenter la limite de gas dans `truffle-config.js`
-- Vérifier que le compte a suffisamment d'ETH
+**4. Gas issues**
+- Increase gas limit in `truffle-config.js`
+- Verify account has sufficient ETH
 
-### Logs de Debug
+### Debug Logs
 
 ```bash
-# Logs Truffle détaillés
+# Detailed Truffle logs
 truffle migrate --network development --verbose-rpc
 
-# Console Truffle
+# Truffle console
 truffle console --network development
 ```
 
-## 📈 Améliorations Futures
+## 📈 Future Improvements
 
-- [ ] Tests automatisés plus complets
-- [ ] Déploiement sur testnet (Sepolia, Goerli)
-- [ ] Interface d'administration
-- [ ] Graphiques de visualisation des données
-- [ ] Support multi-langues
-- [ ] Mode sombre
-- [ ] Notifications push
-- [ ] Historique des transactions persistant
+- [ ] More comprehensive automated tests
+- [ ] Testnet deployment (Sepolia, Goerli)
+- [ ] Administration interface
+- [ ] Data visualization charts
+- [ ] Multi-language support
+- [ ] Dark mode
+- [ ] Push notifications
+- [ ] Persistent transaction history
 
+## 👥 Contributing
 
-## 💻 Auteur
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is under MIT license. See the `LICENSE` file for more details.
+
+## 👨‍💻 Author
 
 **KHALLAOUI**
 - Master GLCC - 2024/2026
 - GitHub: https://github.com/khallaoui
 
-## 🙏 Remerciements
+## 🙏 Acknowledgments
 
-- Équipe pédagogique du Master GLCC
-- Communauté Truffle et Web3.js
-- Documentation Solidity
-- Contributeurs open source
+- Master GLCC teaching team
+- Truffle and Web3.js community
+- Solidity documentation
+- Open source contributors
+
+---
+
+## 📞 Support
+
+For any questions or issues:
+1. Check the documentation
+2. Review existing GitHub issues
+3. Create a new issue with:
+   - Problem description
+   - Steps to reproduce
+   - Environment (OS, versions)
+   - Error logs
+
+---
+
+*Last updated: January 2025*
