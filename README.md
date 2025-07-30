@@ -1,4 +1,4 @@
-# Blockchain TP3 - Solidity Exercises dApp
+# Blockchain Projet de Fin de Module - Solidity Exercises dApp
 
 ## 📋 Description
 
