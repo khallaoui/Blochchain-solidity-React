@@ -303,24 +303,12 @@ truffle console --network development
 - [ ] Notifications push
 - [ ] Historique des transactions persistant
 
-## 👥 Contribution
-
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Commit les changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## ���‍💻 Auteur
 
-**[Votre Nom]**
-- Master GLCC S2 - 2024/2025
-- Email: [votre.email@example.com]
-- GitHub: [@votre-username]
+**KHALLAOUI**
+- Master GLCC - 2024/2026
+- GitHub: https://github.com/khallaoui
 
 ## 🙏 Remerciements
 
@@ -328,20 +316,3 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - Communauté Truffle et Web3.js
 - Documentation Solidity
 - Contributeurs open source
-
----
-
-## 📞 Support
-
-Pour toute question ou problème :
-1. Consulter la documentation
-2. Vérifier les issues GitHub existantes
-3. Créer une nouvelle issue avec :
-   - Description du problème
-   - Étapes pour reproduire
-   - Environnement (OS, versions)
-   - Logs d'erreur
-
----
-
-*Dernière mise à jour: Janvier 2025*
