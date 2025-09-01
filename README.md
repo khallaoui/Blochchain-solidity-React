@@ -1,10 +1,10 @@
 # Blockchain Projet de Fin de Module - Solidity Exercises dApp
 
-## 📋 Description
+##  Description
 
 Decentralized application (dApp) developed for Blockchain course TP3. This application allows interaction with 8 different Solidity contracts, each illustrating specific concepts of blockchain programming.
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - **Blockchain**: Solidity ^0.8.0
 - **Framework**: Truffle
@@ -14,7 +14,7 @@ Decentralized application (dApp) developed for Blockchain course TP3. This appli
 - **UI**: Bootstrap 5.3.7 + React Bootstrap 2.10.10
 - **Routing**: React Router DOM 6.30.1
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 blockchain-tp3-dapp/
@@ -45,7 +45,7 @@ blockchain-tp3-dapp/
 └── package.json
 ```
 
-## 🎯 Implemented Exercises
+##  Implemented Exercises
 
 ### Exercise 1 - Addition Functions
 - **Contract**: `Exercice1.sol`
@@ -107,7 +107,7 @@ blockchain-tp3-dapp/
   - Permission management
   - Balance tracking
 
-## 🚀 Installation and Deployment
+##  Installation and Deployment
 
 ### Prerequisites
 
@@ -184,7 +184,7 @@ npm start
 
 The application will be accessible at `http://localhost:3000`
 
-## 🧪 Testing
+##  Testing
 
 ### Truffle Unit Tests
 
@@ -203,7 +203,7 @@ cd client
 npm test
 ```
 
-## 📱 Application Usage
+##  Application Usage
 
 ### MetaMask Configuration
 
@@ -223,7 +223,7 @@ npm test
 - **Blockchain information**: Real-time data display
 - **Transaction history**: Interaction tracking
 
-## 🔧 Configuration
+##  Configuration
 
 ### Truffle Configuration
 
@@ -241,7 +241,7 @@ REACT_APP_NETWORK_ID=5777
 REACT_APP_GANACHE_URL=http://localhost:7545
 ```
 
-## 📊 Advanced Features
+##  Advanced Features
 
 ### Real-time Blockchain Information
 - Current block number
@@ -260,7 +260,7 @@ REACT_APP_GANACHE_URL=http://localhost:7545
 - Modern Bootstrap design
 - Intuitive navigation
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -292,7 +292,7 @@ truffle migrate --network development --verbose-rpc
 truffle console --network development
 ```
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - [ ] More comprehensive automated tests
 - [ ] Testnet deployment (Sepolia, Goerli)
@@ -304,13 +304,13 @@ truffle console --network development
 - [ ] Persistent transaction history
 
 
-## 👨‍💻 Author
+##  Author
 
 **KHALLAOUI**
 - Master GLCC - 2024/2026
 - GitHub: https://github.com/khallaoui
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Master GLCC teaching team
 - Truffle and Web3.js community
