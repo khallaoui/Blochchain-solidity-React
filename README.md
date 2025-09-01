@@ -4,7 +4,7 @@
 
 Decentralized application (dApp) developed for Blockchain course TP3. This application allows interaction with 8 different Solidity contracts, each illustrating specific concepts of blockchain programming.
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Blockchain**: Solidity ^0.8.0
 - **Framework**: Truffle
